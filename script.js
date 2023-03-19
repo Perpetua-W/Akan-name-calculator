@@ -21,7 +21,14 @@ myf.addEventListener('submit',(e)=>{
         return;
     }
 
- 
+    if(gender === "male"){
+        akan_name = daysOfWeekMale[day_of_the_week];
+    }
+    else{
+        akan_name = daysOfWeekFemale[day_of_the_week];
+    }
+
+    alert("Your AKAN name is : "+akan_name)
 
     
 
