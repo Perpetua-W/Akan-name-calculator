@@ -1,6 +1,8 @@
 const myf = document.forms['my-first-form'];
 let akan_name = "";
 
+const daysOfWeekMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+const daysOfWeekFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 myf.addEventListener('submit',(e)=>{
     e.preventDefault();
