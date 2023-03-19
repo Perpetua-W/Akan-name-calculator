@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    min-width: 20%;
+    color: white;
+  }
+
+    
+    /* Place text in the middle of the image */
+    .hero-text {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    padding-top: 10%;
+    }
+
+    .bg {
+          /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1637192634700-4e09093f3431?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGdoYW5hJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
