@@ -1,15 +1,3 @@
-const myForm = document.querySelector('#myForm');
-const day = document.querySelector('#day');
-const month = document.querySelector('#month');
-const year = document.querySelector('#year');
+const myf = document.forms['my-first-form'];
+let akan_name = "";
 
-
-
-myForm.submit((e)=>{
-   
-
-
-    if(isNaN(day) || isNaN(month) || isNaN(year)){
-        alert("Day, Month or Year must be a number.")
-    }
-})
