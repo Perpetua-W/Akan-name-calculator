@@ -16,7 +16,14 @@ myf.addEventListener('submit',(e)=>{
 
     const day_of_the_week = Math.ceil(Math.abs(( ( (CC/4) - 2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7));
  
-    console.log(day_of_the_week);
+    if(gender === ""){
+        alert("Please select a gender: ");
+        return;
+    }
+
+ 
+
+    
 
 
 });
