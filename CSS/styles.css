@@ -7,10 +7,17 @@
 body, html {
     height: 100%;
     min-width: 20%;
-    color: black;
-  }
+    color: rgba(6, 5, 5, 0.909);
+    }
 
-    
+    small{
+      font-style: italic;
+    }
+
+    h3{
+      text-align:center;
+      font-style: oblique;
+    }
     /* Place text in the middle of the image */
     .hero-text {
     text-align: center;
@@ -19,11 +26,12 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(228, 225, 206, 0.982);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     padding-top:5%;
     }
 
+    
     .bg {
           /* The image used */
   background-image: url("https://images.unsplash.com/photo-1637192634700-4e09093f3431?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGdoYW5hJTIwd2FsbHBhcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
