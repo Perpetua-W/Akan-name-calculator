@@ -13,7 +13,7 @@ Requiremets
 
 ## View Live Site
 
-To access the application you need to have a browser installed on your machine and access it through URL: 
+To access the application you need to have a browser installed on your machine and access it through URL: https://perpetua-w.github.io/Akan-name-calculator/
 
 ## Known Bugs
 No known bags
