@@ -13,12 +13,14 @@ html {
 
 small {
   font-style: italic;
+  color:rgba(6, 5, 5, 0.909);
 }
 
 h3 {
   text-align: center;
   font-style: oblique;
   padding-bottom: 1rem;
+  color: rgba(6, 5, 5, 0.909);
 }
 
 /* Place text in the middle of the image */
